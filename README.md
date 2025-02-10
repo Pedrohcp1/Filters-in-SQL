@@ -2,26 +2,31 @@
 
 ## Objective
 
-The Detection Lab project aimed to establish a controlled environment for simulating and detecting cyber attacks. The primary focus was to ingest and analyze logs within a Security Information and Event Management (SIEM) system, generating test telemetry to mimic real-world attack scenarios. This hands-on experience was designed to deepen understanding of network security, attack patterns, and defensive strategies.
+The objective of this project is to demonstrate the application of SQL queries with filters to enhance the organization's system security. By using operators such as AND, OR, NOT, and LIKE, the queries help identify potential security incidents, optimize employee machine updates, and investigate suspicious login attempts. This process contributes to the integrity and protection of the company's data, ensuring that only relevant information is accessed and analyzed efficiently.
 
 ### Skills Learned
-[Bullet Points - Remove this afterwards]
 
-- Advanced understanding of SIEM concepts and practical application.
-- Proficiency in analyzing and interpreting network logs.
-- Ability to generate and recognize attack signatures and patterns.
-- Enhanced knowledge of network protocols and security vulnerabilities.
-- Development of critical thinking and problem-solving skills in cybersecurity.
+- Data filtering: By using specific operators I can search for data according to my needs.
+- IT Asset Management: ​​Identify employee devices for security updates.
+- Access and Authentication Monitoring: Analysis of login attempts to detect unauthorized access.
+- Data-Driven Decision Making: Using information obtained through consultations for corrective actions.
+- Process Optimization – Use of filters to reduce analysis time and make investigation more efficient.
 
-### Tools Used
-[Bullet Points - Remove this afterwards]
+## Project Description
 
-- Security Information and Event Management (SIEM) system for log ingestion and analysis.
-- Network analysis tools (such as Wireshark) for capturing and examining network traffic.
-- Telemetry generation tools to create realistic network traffic and attack scenarios.
+My organization is working to make its system more secure. It is my job to ensure that the system is secure, investigate all potential security issues, and update employee computers as needed. The following steps provide examples of how I used SQL with filters to perform security-related tasks.
 
 ## Steps
-drag & drop screenshots here or use imgur and reference them using imgsrc
+
+### Recover Failed Login Attempts After Business Hours
+
+There was a potential security incident that occurred after business hours (after 6:00 PM). All failed login attempts after business hours need to be investigated.
+
+The following code demonstrates how I created a SQL query to filter failed login attempts that occurred after business hours.
+
+![image](https://github.com/user-attachments/assets/f5f75bec-9871-45c6-8cdf-82f0b001d738)
+
+
 
 Every screenshot should have some text explaining what the screenshot is about.
 
